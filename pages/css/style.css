@@ -1,0 +1,207 @@
+body {
+  background-color: lavender;
+  margin: 0%;
+}
+
+.imglogo {
+  width: 70px;
+}
+
+nav {
+  padding: 16px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.link {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  ul li {
+    display: block;
+    font-size: 2em;
+  }
+}
+
+.inicio {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-decoration: double;
+}
+
+.imgPortada13 {
+  width: 400px;
+  border: 2px;
+  border-style: dotted;
+  border-color: cadetblue;
+  margin-left: 5px;
+}
+
+.imgPortada12 {
+  width: 400px;
+  border: 2px;
+  border-style: dotted;
+  border-color: cadetblue;
+  margin-left: 5px;
+}
+
+.imgPortada16 {
+  width: 400px;
+  border: 2px;
+  border-style: dotted;
+  border-color: cadetblue;
+  margin-left: 5px;
+}
+
+h1 {
+  color: #b5dceb;
+  text-align: center;
+}
+
+.párrafo1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+form {
+  margin-left: 450px;
+}
+
+.footer_imagen {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.nosotros {
+  margin-left: 2px;
+  font-family: monospace;
+  text-align: center;
+  font-size: medium;
+}
+
+.parrafonosotros {
+  font-family: monospace;
+  text-align: center;
+  font-size: medium;
+}
+
+.cuidado {
+  text-align: center;
+}
+
+#cuidado {
+  color: cadetblue;
+  text-align: center;
+  font-size: large;
+}
+
+.nosotros3 {
+  width: 400px;
+  height: 400px;
+}
+
+.nosotros4 {
+  width: 400px;
+  height: 400px;
+}
+
+.nosotros6 {
+  width: 400px;
+  height: 400px;
+}
+
+.carousel-inner {
+  margin-left: 400px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "imagen1 imagen2 imagen3"
+    "imagen4 imagen5 imagen6";
+  justify-items: center;
+}
+
+.imagen1 {
+  grid-area: imagen1;
+}
+
+.imagen2 {
+  grid-area: imagen2;
+}
+
+.imagen3 {
+  grid-area: imagen3;
+}
+
+.imagen4 {
+  grid-area: imagen4;
+}
+
+.imagen1 img,
+.imagen2 img,
+.imagen3 img,
+.imagen4 img,
+.imagen5 img,
+.imagen6 img {
+  width: 300px;
+  height: 300px;
+  padding: 2em;
+}
+
+.imagen1:hover {
+  transform: scale(2);
+  animation-duration: 1s;
+}
+
+.imagen3:hover {
+  transform: scale(2);
+  animation-duration: 1s;
+}
+
+.imagen5:hover {
+  transform: scale(2);
+  animation-duration: 1s;
+}
+
+.mb-3 {
+  margin-right: 500px;
+}
+
+.contacto {
+  text-align: center;
+}
